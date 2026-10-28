@@ -20,3 +20,7 @@ pytest projects/14-webhook-dispatcher -q
 - Exponential backoff with full jitter; 4xx is not retried, 5xx and timeouts are
 - Transport injected - the entire retry matrix is tested offline
 - Dead-letter queue plus a replay method for after the incident
+
+## Repository
+- GitHub: https://github.com/{owner}/webhook-dispatcher
+- Python 3.11+ · tests: `pytest` · runtime dependencies: none (standard library only)
